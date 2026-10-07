@@ -4,7 +4,7 @@ Welcome to my personal portfolio!
 
 ## 🌐 View My Portfolio
 
-[**Visit My Portfolio →**](https://[JoaquinCordova1.github.io](https://joaquincordova1.github.io/Portfolio_JoaquinCordova1.github.io/))
+[**Visit My Portfolio →**](https://joaquincordova1.github.io/Portfolio_JoaquinCordova1.github.io/)
 
 ## About Me
 
