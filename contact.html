@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Contact | Joaquin Cordova</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- BACKGROUND -->
+
+    <div class="night-sky">
+
+        <div class="moon">
+
+            <div class="moon-crater crater-1"></div>
+            <div class="moon-crater crater-2"></div>
+            <div class="moon-crater crater-3"></div>
+            <div class="moon-crater crater-4"></div>
+
+        </div>
+
+        <div class="cloud cloud-1"></div>
+        <div class="cloud cloud-2"></div>
+        <div class="cloud cloud-3"></div>
+        <div class="cloud cloud-4"></div>
+
+    </div>
+
+
+    <!-- NAVIGATION -->
+
+    <div id="mySidenav" class="sidenav">
+
+        <a
+            href="javascript:void(0)"
+            class="closebtn"
+            onclick="closeNav()"
+        >
+            &times;
+        </a>
+
+        <a href="index.html">
+            Home
+        </a>
+
+        <a href="skills.html">
+            Skills
+        </a>
+
+        <a href="projects.html">
+            Projects
+        </a>
+
+        <a href="contact.html">
+            Contact
+        </a>
+
+    </div>
+
+
+    <div
+        class="options-button"
+        onclick="openNav()"
+    >
+        ☰ Options
+    </div>
+
+
+    <!-- PAGE -->
+
+    <main class="page">
+
+
+        <header class="page-header">
+
+            <div class="small-title">
+                Get In Touch
+            </div>
+
+            <h1>
+                Contact Me
+            </h1>
+
+            <p>
+                Interested in connecting?
+                Send me a message using the form below.
+            </p>
+
+        </header>
+
+
+        <section class="contact-form">
+
+            <form
+                action="mailto:YOUR_EMAIL_HERE"
+                method="post"
+                enctype="text/plain"
+            >
+
+
+                <div class="form-group">
+
+                    <label for="name">
+                        Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Your name"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="your@email.com"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="message">
+                        Message
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        placeholder="Write your message..."
+                        required
+                    ></textarea>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="button"
+                >
+                    Send Message
+                </button>
+
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
